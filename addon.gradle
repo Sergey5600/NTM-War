@@ -6,5 +6,5 @@ minecraft {
     // деобфусцируется до запуска игры, поэтому AT нужно применить на этапе деобфускации, иначе HBM падает
     // с IllegalAccessError в runClient/runServer. RFG сам найдёт FMLAT в jar'ах compileClasspath —
     // файл HBM к нам не копируется и в наш jar не попадает.
-    useDependencyAccessTransformers = true
+    useDependencyAccessTransformers.set(true)
 }

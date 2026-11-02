@@ -39,7 +39,11 @@ NotEnoughItems (форк GTNH) добавлен только в dev-клиент
 * **JDK для запуска Gradle:** 17 или новее, рекомендуется 25 (файл `.java-version` шаблона). Мод компилируется
   в байткод Java 8. Нужные JDK, включая Java 8 для `runClient`/`runServer`, Gradle скачает сам
   (toolchains + foojay).
-* Нужен доступ в интернет к Maven Forge, Mojang, GTNH (`nexus.gtnewhorizons.com`) и HBM (`maven.ntmr.dev`).
+* Нужен доступ в интернет к Maven Forge, Mojang, GTNH (`nexus.gtnewhorizons.com`) и HBM (`maven.ntmr.dev`),
+  а также к `files.prismlauncher.org`, `files.minecraftforge.net`, `repo.spongepowered.org`,
+  `gregtech.overminddl1.com` (их использует RFG и шаблон GTNH).
+* Если Maven Central отвечает `429 Too Many Requests`, просто повторите сборку (скачанное кэшируется), можно с
+  `--no-parallel -Dorg.gradle.internal.repository.max.retries=10 -Dorg.gradle.internal.repository.initial.backoff=3000`.
 * Нужен git-репозиторий: версия мода берётся из git-тега (у релиза 0.1.0 тег `0.1.0`).
   На коммитах после тега версия будет вида `0.1.0-<ветка>.<N>+<хеш>`.
 

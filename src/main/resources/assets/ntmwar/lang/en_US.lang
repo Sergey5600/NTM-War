@@ -1,0 +1,44 @@
+# NTM: War — English localization
+
+itemGroup.ntmwar=NTM: War
+
+# Ammunition components
+item.ntmwar.apfsds_rod_tungsten.name=APFSDS Penetrator (Tungsten)
+item.ntmwar.apfsds_rod_tungsten.desc=Long-rod kinetic penetrator made of tungsten$Combined with a sabot into an APFSDS shell
+item.ntmwar.apfsds_rod_du.name=APFSDS Penetrator (Depleted Uranium)
+item.ntmwar.apfsds_rod_du.desc=Long-rod kinetic penetrator made of depleted uranium$Self-sharpening: penetrates deeper than tungsten
+item.ntmwar.sabot.name=Sabot
+item.ntmwar.sabot.desc=Aluminium segments holding the penetrator in the barrel$Discarded right after leaving the muzzle
+item.ntmwar.propellant_charge_125.name=125mm Propellant Charge
+item.ntmwar.propellant_charge_125.desc=Smokeless powder in a combustible case$Required for every 125mm shell
+item.ntmwar.heat_liner_copper.name=Copper Shaped Charge Liner
+item.ntmwar.heat_liner_copper.desc=Copper cone that forms the cumulative jet$Core of a HEAT warhead
+item.ntmwar.shell_body_125.name=125mm Shell Body
+item.ntmwar.shell_body_125.desc=Steel body for HEAT and HE-FRAG shells
+
+# Shells
+item.ntmwar.shell_125_apfsds_w.name=125mm APFSDS (W)
+item.ntmwar.shell_125_apfsds_du.name=125mm APFSDS (DU)
+item.ntmwar.shell_125_heat.name=125mm HEAT
+item.ntmwar.shell_125_he.name=125mm HE-FRAG
+
+# Armor materials
+item.ntmwar.armor_plate_rha.name=RHA Armor Plate
+item.ntmwar.armor_plate_rha.desc=Rolled homogeneous steel armor$Material for future vehicle armor
+item.ntmwar.era_tile.name=ERA Tile
+item.ntmwar.era_tile.desc=Explosive reactive armor element$Will disrupt HEAT jets on future vehicles
+
+# Shell types
+ntmwar.shell_type.apfsds=APFSDS
+ntmwar.shell_type.heat=HEAT
+ntmwar.shell_type.he=HE-FRAG
+
+# Tooltips
+tooltip.ntmwar.hold_shift=§8Hold <§e§oLSHIFT§8§o> to display more info
+tooltip.ntmwar.shell.caliber=Caliber: %s mm
+tooltip.ntmwar.shell.type=Projectile: %s
+tooltip.ntmwar.shell.velocity=Muzzle velocity: %s m/s
+tooltip.ntmwar.shell.mass=Projectile mass: %s kg
+tooltip.ntmwar.shell.penetration=Penetration: %s mm RHA
+tooltip.ntmwar.shell.explosive=Explosive filler: %s kg TNT eq.
+tooltip.ntmwar.shell.placeholder=§8§oPreliminary values, balance is not final

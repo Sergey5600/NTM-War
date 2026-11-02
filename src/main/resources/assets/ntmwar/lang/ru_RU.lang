@@ -1,0 +1,44 @@
+# NTM: War — русская локализация
+
+itemGroup.ntmwar=NTM: War
+
+# Компоненты боеприпасов
+item.ntmwar.apfsds_rod_tungsten.name=Сердечник БОПС (вольфрам)
+item.ntmwar.apfsds_rod_tungsten.desc=Удлинённый кинетический сердечник из вольфрама$Вместе с ведущим устройством идёт в выстрел БОПС
+item.ntmwar.apfsds_rod_du.name=Сердечник БОПС (обеднённый уран)
+item.ntmwar.apfsds_rod_du.desc=Удлинённый кинетический сердечник из обеднённого урана$Самозатачивается и пробивает глубже вольфрама
+item.ntmwar.sabot.name=Ведущее устройство
+item.ntmwar.sabot.desc=Алюминиевые секторы, держащие сердечник в стволе$Отделяются сразу после вылета из канала ствола
+item.ntmwar.propellant_charge_125.name=Метательный заряд 125 мм
+item.ntmwar.propellant_charge_125.desc=Бездымный порох в сгораемой гильзе$Нужен для любого выстрела 125 мм
+item.ntmwar.heat_liner_copper.name=Кумулятивная воронка (медь)
+item.ntmwar.heat_liner_copper.desc=Медный конус, формирующий кумулятивную струю$Основа кумулятивной боевой части
+item.ntmwar.shell_body_125.name=Корпус снаряда 125 мм
+item.ntmwar.shell_body_125.desc=Стальной корпус для кумулятивных и осколочно-фугасных снарядов
+
+# Выстрелы
+item.ntmwar.shell_125_apfsds_w.name=Выстрел 125 мм БОПС (W)
+item.ntmwar.shell_125_apfsds_du.name=Выстрел 125 мм БОПС (ОУ)
+item.ntmwar.shell_125_heat.name=Выстрел 125 мм кумулятивный
+item.ntmwar.shell_125_he.name=Выстрел 125 мм осколочно-фугасный
+
+# Материалы брони
+item.ntmwar.armor_plate_rha.name=Броневая плита
+item.ntmwar.armor_plate_rha.desc=Катаная гомогенная стальная броня$Материал для будущей брони техники
+item.ntmwar.era_tile.name=Элемент динамической защиты
+item.ntmwar.era_tile.desc=Элемент динамической защиты (ДЗ)$Будет разрушать кумулятивную струю на будущей технике
+
+# Типы снарядов
+ntmwar.shell_type.apfsds=БОПС
+ntmwar.shell_type.heat=кумулятивный
+ntmwar.shell_type.he=осколочно-фугасный
+
+# Тултипы
+tooltip.ntmwar.hold_shift=§8Удерживайте <§e§oLShift§8§o> для подробностей
+tooltip.ntmwar.shell.caliber=Калибр: %s мм
+tooltip.ntmwar.shell.type=Снаряд: %s
+tooltip.ntmwar.shell.velocity=Начальная скорость: %s м/с
+tooltip.ntmwar.shell.mass=Масса снаряда: %s кг
+tooltip.ntmwar.shell.penetration=Бронепробитие: %s мм гомогенной брони
+tooltip.ntmwar.shell.explosive=Масса ВВ: %s кг в тротиловом эквиваленте
+tooltip.ntmwar.shell.placeholder=§8§oПредварительные значения, баланс не финальный

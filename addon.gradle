@@ -1,0 +1,10 @@
+// Дополнительная логика сборки NTM: War (подхватывается шаблоном GTNH автоматически).
+
+minecraft {
+    // HBM поставляет access transformer (META-INF/HBM_at.cfg, ссылка в манифесте FMLAT) — он открывает поля
+    // EntityLivingBase, KeyBinding и т.п. В продакшене его применяет FML, а в dev-окружении Minecraft
+    // деобфусцируется до запуска игры, поэтому AT нужно применить на этапе деобфускации, иначе HBM падает
+    // с IllegalAccessError в runClient/runServer. RFG сам найдёт FMLAT в jar'ах compileClasspath —
+    // файл HBM к нам не копируется и в наш jar не попадает.
+    useDependencyAccessTransformers = true
+}

@@ -1,0 +1,20 @@
+/*
+ * Зависимости NTM: War.
+ *
+ * HBM's Nuclear Tech Mod — обязательная зависимость мода (required-after:hbm в @Mod), но в jar не встраивается
+ * и в Maven-метаданные не публикуется: игрок ставит HBM сам.
+ *  - devOnlyNonPublishable = compileOnly + runtimeOnlyNonPublishable: HBM доступен при компиляции и в runClient/runServer.
+ *  - Используется dev-jar HBM (MCP-имена), поэтому rfg.deobf не нужен.
+ *  - transitive = false: POM HBM тянет старые CodeChicken*-артефакты, они нам не нужны.
+ *
+ * Запасной вариант, если maven.ntmr.dev недоступен — обфусцированный релиз с CurseForge через CurseMaven,
+ * деобфускация средствами RFG (fileId — номер файла релиза 1.0.27_X5863 на CurseForge):
+ *     devOnlyNonPublishable(rfg.deobf("curse.maven:hbms-nuclear-tech-mod-235439:<fileId>"))
+ *
+ * NEI — только для dev-клиента (просмотр рецептов), в зависимости мода не попадает.
+ */
+dependencies {
+    devOnlyNonPublishable("com.hbm:HBM-NTM:${hbmVersion}:dev") { transitive = false }
+
+    runtimeOnlyNonPublishable("com.github.GTNewHorizons:NotEnoughItems:${neiVersion}:dev")
+}

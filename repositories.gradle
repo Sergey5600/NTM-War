@@ -1,0 +1,13 @@
+// Дополнительные репозитории. CurseMaven, Modrinth и Maven GTNH подключаются шаблоном автоматически
+// (includeWellKnownRepositories = true в gradle.properties).
+
+repositories {
+    // Официальный Maven HBM's Nuclear Tech Mod (см. README в исходниках HBM, раздел "Using in your project").
+    maven {
+        name = "NTM Releases"
+        url = "https://maven.ntmr.dev/releases"
+        content {
+            includeGroup("com.hbm")
+        }
+    }
+}

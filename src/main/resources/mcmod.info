@@ -1,0 +1,20 @@
+[
+  {
+    "modid": "${modId}",
+    "name": "${modName}",
+    "description": "Military addon for HBM's Nuclear Tech Mod. Test version 0.1: 125mm tank ammunition components, shells and armor materials. Requires HBM's Nuclear Tech Mod.",
+    "version": "${modVersion}",
+    "mcversion": "${minecraftVersion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": ["SD Studio"],
+    "credits": "Built on top of HBM's Nuclear Tech Mod by HbMinecraft and contributors.",
+    "logoFile": "",
+    "screenshots": [],
+    "parent": "",
+    "requiredMods": ["hbm"],
+    "dependencies": ["hbm"],
+    "dependants": [],
+    "useDependencyInformation": false
+  }
+]

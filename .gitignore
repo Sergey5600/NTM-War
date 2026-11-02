@@ -1,0 +1,49 @@
+# Gradle
+.gradle/
+/build/
+/out/
+/bin/
+addon.local.gradle
+addon.local.gradle.kts
+addon.late.local.gradle
+addon.late.local.gradle.kts
+
+# Запуск игры (runClient / runServer)
+/run/
+/eclipse/
+/config/
+/crash-reports/
+/logs/
+/saves/
+options.txt
+usernamecache.json
+usercache.json
+banned-ips.json
+banned-players.json
+eula.txt
+ops.json
+server.properties
+servers.dat
+whitelist.json
+layout.json
+
+# IDE
+/.idea/
+/.vscode/
+/.settings/
+.classpath
+.project
+.factorypath
+*.iml
+*.ipr
+*.iws
+
+# ОС
+.DS_Store
+Thumbs.db
+*.bat
+!gradlew.bat
+
+# Python (tools/)
+__pycache__/
+*.pyc
